@@ -1,19 +1,19 @@
 package com.mylllket_inc.app;
 
 
-public class Int64 {
+public class IntSet {
     private long data = 0;  //field containing int values
     private final short lowThresh = 0;      //low bound
     private final short highThresh = 63;    //high bound
 
     //default constructor
-    public Int64() {
+    public IntSet() {
         data = 0;
     }
 
     //initialization constructor
     //@param data - initialize parameter
-    private Int64(long data) {
+    private IntSet(long data) {
         this.data = data;
     }
 
@@ -46,37 +46,37 @@ public class Int64 {
         data &= ~(1L << val);
     }
 
-    //union(Int64) - method to unite two long values
-    //@param other - Int64 type value to unite with
-    //@return new Int64 value
-    public Int64 union(Int64 other) {
-        return new Int64(this.data | other.data);
+    //union(IntSet) - method to unite two long values
+    //@param other - IntSet type value to unite with
+    //@return new IntSet value
+    public IntSet union(IntSet other) {
+        return new IntSet(this.data | other.data);
     }
 
-    //intersection(Int64) - method to unite two long values
-    //@param other - Int64 type value to intersect with
-    //@return new Int64 value
-    public Int64 intersection(Int64 other) {
-        return new Int64(this.data & other.data);
+    //intersection(IntSet) - method to unite two long values
+    //@param other - IntSet type value to intersect with
+    //@return new IntSet value
+    public IntSet intersection(IntSet other) {
+        return new IntSet(this.data & other.data);
     }
 
-    //difference(Int64) - compare two Int64 values
-    //@param other - Int64 type value to compare with
+    //difference(IntSet) - compare two IntSet values
+    //@param other - IntSet type value to compare with
     //@return false if different
     //@return true if equal
-    public boolean difference(Int64 other) {
+    public boolean difference(IntSet other) {
         return (this.data ^ other.data) == 0;
     }
 
-    //isSubsetOf(Int64) - check on substring for called Int64 value
-    //@param other - Int64 type value to find substring
+    //isSubsetOf(IntSet) - check on substring for called IntSet value
+    //@param other - IntSet type value to find substring
     //@return true if there is a substring in other
     //@return false if there is not a substring in other
-    public boolean isSubsetOf(Int64 other) {
+    public boolean isSubsetOf(IntSet other) {
         if (this.bitNum() >= other.bitNum()) {
             return false;
         }
-        Int64 tmp = new Int64();
+        IntSet tmp = new IntSet();
         for (int i = 0; i < other.bitNum() + 1; i++) {
             for (int j = 0; j < this.bitNum() + (i + 1); j++) {
                 tmp.add(j);
@@ -112,7 +112,7 @@ public class Int64 {
     }
 
     //bitNum()
-    //@return number of bits for called Int64 object
+    //@return number of bits for called IntSet object
     private int bitNum() {
         return (int) (Math.ceil(Math.log(this.data) / Math.log(2)));
     }

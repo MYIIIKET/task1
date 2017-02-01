@@ -2,11 +2,11 @@ package com.mylllket_inc.app;
 
 import junit.framework.TestCase;
 
-public class Int64Test extends TestCase {
+public class IntSetTest extends TestCase {
     public void testIsSubsetOf() throws Exception {
-        final Int64 a = new Int64();
-        final Int64 b = new Int64();
-        final Int64 c = new Int64();
+        final IntSet a = new IntSet();
+        final IntSet b = new IntSet();
+        final IntSet c = new IntSet();
         //b=10110101
         b.add(0);
         b.add(2);
@@ -37,8 +37,8 @@ public class Int64Test extends TestCase {
     }
 
     public void testDifference() throws Exception {
-        final Int64 a = new Int64();
-        final Int64 b = new Int64();
+        final IntSet a = new IntSet();
+        final IntSet b = new IntSet();
         a.add(5);
         b.add(7);
         assertFalse(a.difference(b));
@@ -50,8 +50,8 @@ public class Int64Test extends TestCase {
     }
 
     public void testIntersection() throws Exception {
-        Int64 a = new Int64();
-        final Int64 b = new Int64();
+        IntSet a = new IntSet();
+        final IntSet b = new IntSet();
         a.add(0);
         a.add(2);
         b.add(3);
@@ -60,8 +60,8 @@ public class Int64Test extends TestCase {
     }
 
     public void testUnion() throws Exception {
-        Int64 a = new Int64();
-        final Int64 b = new Int64();
+        IntSet a = new IntSet();
+        final IntSet b = new IntSet();
         a.add(5);
         b.add(8);
         a=a.union(b);
@@ -69,7 +69,7 @@ public class Int64Test extends TestCase {
     }
 
     public void testAdd() throws Exception {
-        final Int64 test = new Int64();
+        final IntSet test = new IntSet();
 
         assertFalse(test.contains(-1));
         test.add(-1);
@@ -97,7 +97,7 @@ public class Int64Test extends TestCase {
     }
 
     public void testRemove() throws Exception {
-        final Int64 test = new Int64();
+        final IntSet test = new IntSet();
         assertFalse(test.contains(5));
         test.add(5);
         assertTrue(test.contains(5));
@@ -107,7 +107,7 @@ public class Int64Test extends TestCase {
     }
 
 
-    public void testInt() throws Exception {
+    public void testIntSet() throws Exception {
         testAdd();
         testRemove();
         testUnion();
