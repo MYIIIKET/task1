@@ -6,7 +6,7 @@ import java.util.Set;
 public class SetInt64 {
     private long data = 0;  //field containing int values
     private final short lowThresh = 0;      //low bound
-    private final short highThresh = 62;    //high bound
+    private final short highThresh = 63;    //high bound
 
     //default constructor
     public SetInt64() {
@@ -92,7 +92,7 @@ public class SetInt64 {
         return false;
     }
 
-    //auxiliary methods
+    //auxiliary methods---------------------------------------------------------------------------------------------
 
     //getVal()
     //@return value of data

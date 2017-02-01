@@ -6,25 +6,33 @@ public class SetInt64Test extends TestCase {
     public void testIsSubsetOf() throws Exception {
         final SetInt64 a = new SetInt64();
         final SetInt64 b = new SetInt64();
-        //10110101
+        final SetInt64 c = new SetInt64();
+        //b=10110101
         b.add(0);
         b.add(2);
         b.add(4);
         b.add(5);
         b.add(7);
 
-        //1011
+        //a=1011
         a.add(0);
         a.add(1);
         a.add(3);
         assertTrue(a.isSubsetOf(b));
 
-        //1111
+        //a=1111
         a.add(0);
         a.add(1);
         a.add(2);
         a.add(3);
         assertFalse(a.isSubsetOf(b));
+
+        //c=1101
+        c.add(0);
+        c.add(2);
+        c.add(3);
+        assertTrue(c.isSubsetOf(b));
+
 
     }
 
@@ -81,7 +89,11 @@ public class SetInt64Test extends TestCase {
 
         assertFalse(test.contains(63));
         test.add(63);
-        assertFalse(test.contains(63));
+        assertTrue(test.contains(63));
+
+        assertFalse(test.contains(64));
+        test.add(64);
+        assertFalse(test.contains(64));
     }
 
     public void testRemove() throws Exception {
