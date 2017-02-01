@@ -29,12 +29,16 @@ public class SetInt64Test extends TestCase {
     }
 
     public void testDifference() throws Exception {
-        SetInt64 a = new SetInt64();
+        final SetInt64 a = new SetInt64();
         final SetInt64 b = new SetInt64();
         a.add(5);
         b.add(7);
-        a=a.difference(b);
-        assertEquals(96,a.getVal());
+        assertFalse(a.difference(b));
+        assertFalse(b.difference(a));
+        a.add(7);
+        b.add(5);
+        assertTrue(a.difference(b));
+        assertTrue(b.difference(a));
     }
 
     public void testIntersection() throws Exception {
