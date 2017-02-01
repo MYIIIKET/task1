@@ -1,21 +1,19 @@
 package com.mylllket_inc.app;
 
-import java.util.Set;
 
-
-public class SetInt64 {
+public class Int64 {
     private long data = 0;  //field containing int values
     private final short lowThresh = 0;      //low bound
     private final short highThresh = 63;    //high bound
 
     //default constructor
-    public SetInt64() {
+    public Int64() {
         data = 0;
     }
 
     //initialization constructor
     //@param data - initialize parameter
-    private SetInt64(long data) {
+    private Int64(long data) {
         this.data = data;
     }
 
@@ -48,37 +46,37 @@ public class SetInt64 {
         data &= ~(1L << val);
     }
 
-    //union(SetInt64) - method to unite two long values
-    //@param other - SetInt64 type value to unite with
-    //@return new SetInt64 value
-    public SetInt64 union(SetInt64 other) {
-        return new SetInt64(this.data | other.data);
+    //union(Int64) - method to unite two long values
+    //@param other - Int64 type value to unite with
+    //@return new Int64 value
+    public Int64 union(Int64 other) {
+        return new Int64(this.data | other.data);
     }
 
-    //intersection(SetInt64) - method to unite two long values
-    //@param other - SetInt64 type value to intersect with
-    //@return new SetInt64 value
-    public SetInt64 intersection(SetInt64 other) {
-        return new SetInt64(this.data & other.data);
+    //intersection(Int64) - method to unite two long values
+    //@param other - Int64 type value to intersect with
+    //@return new Int64 value
+    public Int64 intersection(Int64 other) {
+        return new Int64(this.data & other.data);
     }
 
-    //difference(SetInt64) - compare two SetInt64 values
-    //@param other - SetInt64 type value to compare with
+    //difference(Int64) - compare two Int64 values
+    //@param other - Int64 type value to compare with
     //@return false if different
     //@return true if equal
-    public boolean difference(SetInt64 other) {
+    public boolean difference(Int64 other) {
         return (this.data ^ other.data) == 0;
     }
 
-    //isSubsetOf(SetInt64) - check on substring for called SetInt64 value
-    //@param other - SetInt64 type value to find substring
+    //isSubsetOf(Int64) - check on substring for called Int64 value
+    //@param other - Int64 type value to find substring
     //@return true if there is a substring in other
     //@return false if there is not a substring in other
-    public boolean isSubsetOf(SetInt64 other) {
+    public boolean isSubsetOf(Int64 other) {
         if (this.bitNum() >= other.bitNum()) {
             return false;
         }
-        SetInt64 tmp = new SetInt64();
+        Int64 tmp = new Int64();
         for (int i = 0; i < other.bitNum() + 1; i++) {
             for (int j = 0; j < this.bitNum() + (i + 1); j++) {
                 tmp.add(j);
@@ -114,7 +112,7 @@ public class SetInt64 {
     }
 
     //bitNum()
-    //@return number of bits for called SetInt64 object
+    //@return number of bits for called Int64 object
     private int bitNum() {
         return (int) (Math.ceil(Math.log(this.data) / Math.log(2)));
     }

@@ -2,11 +2,11 @@ package com.mylllket_inc.app;
 
 import junit.framework.TestCase;
 
-public class SetInt64Test extends TestCase {
+public class Int64Test extends TestCase {
     public void testIsSubsetOf() throws Exception {
-        final SetInt64 a = new SetInt64();
-        final SetInt64 b = new SetInt64();
-        final SetInt64 c = new SetInt64();
+        final Int64 a = new Int64();
+        final Int64 b = new Int64();
+        final Int64 c = new Int64();
         //b=10110101
         b.add(0);
         b.add(2);
@@ -37,8 +37,8 @@ public class SetInt64Test extends TestCase {
     }
 
     public void testDifference() throws Exception {
-        final SetInt64 a = new SetInt64();
-        final SetInt64 b = new SetInt64();
+        final Int64 a = new Int64();
+        final Int64 b = new Int64();
         a.add(5);
         b.add(7);
         assertFalse(a.difference(b));
@@ -50,8 +50,8 @@ public class SetInt64Test extends TestCase {
     }
 
     public void testIntersection() throws Exception {
-        SetInt64 a = new SetInt64();
-        final SetInt64 b = new SetInt64();
+        Int64 a = new Int64();
+        final Int64 b = new Int64();
         a.add(0);
         a.add(2);
         b.add(3);
@@ -60,8 +60,8 @@ public class SetInt64Test extends TestCase {
     }
 
     public void testUnion() throws Exception {
-        SetInt64 a = new SetInt64();
-        final SetInt64 b = new SetInt64();
+        Int64 a = new Int64();
+        final Int64 b = new Int64();
         a.add(5);
         b.add(8);
         a=a.union(b);
@@ -69,7 +69,7 @@ public class SetInt64Test extends TestCase {
     }
 
     public void testAdd() throws Exception {
-        final SetInt64 test = new SetInt64();
+        final Int64 test = new Int64();
 
         assertFalse(test.contains(-1));
         test.add(-1);
@@ -97,7 +97,7 @@ public class SetInt64Test extends TestCase {
     }
 
     public void testRemove() throws Exception {
-        final SetInt64 test = new SetInt64();
+        final Int64 test = new Int64();
         assertFalse(test.contains(5));
         test.add(5);
         assertTrue(test.contains(5));
@@ -107,7 +107,7 @@ public class SetInt64Test extends TestCase {
     }
 
 
-    public void testSetInt() throws Exception {
+    public void testInt() throws Exception {
         testAdd();
         testRemove();
         testUnion();
