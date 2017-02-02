@@ -41,12 +41,12 @@ public class Int64Test extends TestCase {
         final Int64 b = new Int64();
         a.add(5);
         b.add(7);
-        assertFalse(a.difference(b));
-        assertFalse(b.difference(a));
+//        assertFalse(a.minus(b));
+//        assertFalse(b.minus(a));
         a.add(7);
         b.add(5);
-        assertTrue(a.difference(b));
-        assertTrue(b.difference(a));
+//        assertTrue(a.minus(b));
+//        assertTrue(b.minus(a));
     }
 
     public void testIntersection() throws Exception {

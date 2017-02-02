@@ -3,8 +3,8 @@ package com.mylllket_inc.app;
 
 public class Int64 {
     private long data = 0;  //field containing int values
-    private final short lowThresh = 0;      //low bound
-    private final short highThresh = 63;    //high bound
+    private final static  byte lowThresh = 0;      //low bound
+    private final static byte highThresh = 63;    //high bound
 
     //default constructor
     public Int64() {
@@ -60,12 +60,12 @@ public class Int64 {
         return new Int64(this.data & other.data);
     }
 
-    //difference(Int64) - compare two Int64 values
+    //minus(Int64) - compare two Int64 values
     //@param other - Int64 type value to compare with
     //@return false if different
     //@return true if equal
-    public boolean difference(Int64 other) {
-        return (this.data ^ other.data) == 0;
+    public Int64 minus(Int64 other) {
+        return new Int64(this.data - other.data);
     }
 
     //isSubsetOf(Int64) - check on substring for called Int64 value
