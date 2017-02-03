@@ -73,7 +73,7 @@ public class Int64 {
     //@return true if there is a substring in other
     //@return false if there is not a substring in other
     public boolean isSubsetOf(Int64 other) {
-        if (this.bitNum() >= other.bitNum()) {
+        if (this.bitNum() > other.bitNum()) {
             return false;
         }
         Int64 tmp = new Int64();

@@ -11,7 +11,7 @@ public class IntSet {
 
     private static byte globalID = 0;
     private int ID = 0;
-
+    
     public IntSet(int size) {
         if (size != 0) {
             globalID++;
@@ -25,7 +25,17 @@ public class IntSet {
         }
     }
 
+    public IntSet(int[] data) {
+        this(data.length);
+        for (int i = 0; i < data.length; i++) {
+            this.add(data[i]);
+        }
+        IntSet tmp = checkOnDefrag(this);
+        this.arrData = tmp.arrData;
+    }
+
     public void add(int val) {
+        if (val < 0) return;
         if (val > curretSize) {
             curretSize += elemNum;
             size++;
@@ -96,6 +106,21 @@ public class IntSet {
 
         res = checkOnDefrag(res);
         return res;
+    }
+
+    public boolean isSubsetetOf(IntSet other) {
+        int l = min(this.arrData.length, other.arrData.length);
+        IntSet res = new IntSet(max(this.arrData.length, other.arrData.length));
+        if (this.arrData.length > other.arrData.length) {
+            System.arraycopy(this.arrData, 0, res.arrData, 0, res.arrData.length);
+        } else {
+            System.arraycopy(other.arrData, 0, res.arrData, 0, res.arrData.length);
+        }
+        boolean flag = true;
+        for (int i = 0; i < l; i++) {
+            flag &= this.arrData[i].isSubsetOf(other.arrData[i]);
+        }
+        return flag;
     }
 
 
