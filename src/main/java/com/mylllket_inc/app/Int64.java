@@ -1,24 +1,46 @@
 package com.mylllket_inc.app;
 
+/**
+ * Class for storing <code>int</code> values in <code>long</code> by setting bits
+ */
 
 public class Int64 {
-    private long data = 0;  //field containing int values
-    private final static  byte lowThresh = 0;      //low bound
-    private final static byte highThresh = 63;    //high bound
+    /**
+     * Field containing <code>int</code> value
+     */
+    private long data = 0;
+    /**
+     * Low bound
+     */
+    private final static byte lowThresh = 0;
+    /**
+     * High bound
+     */
+    private final static byte highThresh = 63;
 
-    //default constructor
+    /**
+     * Default constructor
+     */
     public Int64() {
         data = 0;
     }
 
-    //initialization constructor
-    //@param data - initialize parameter
+
+    /**
+     * Initialization constructor
+     *
+     * @param data - initialize parameter
+     */
     private Int64(long data) {
         this.data = data;
     }
 
-    //add(int) - add int value to @data field
-    //@param val - int value to add into long
+
+    /**
+     * Method to add <code>int</code> value to {@link #data}
+     *
+     * @param val
+     */
     public void add(int val) {
         if (!checkThreshold(val)) {
             return;
@@ -26,10 +48,12 @@ public class Int64 {
         data |= 1L << val;
     }
 
-    //contain(int) - check on containing int value in @data field
-    //@param val - check if bit at val is set in data
-    //@return false if there is no a value
-    //@return true if there is a value
+    /**
+     * Check on containing <code>int</code>value in {@link #data}
+     *
+     * @param val
+     * @return true if there is a value else false
+     */
     public boolean contains(int val) {
         if (!checkThreshold(val))
             return false;
@@ -39,6 +63,12 @@ public class Int64 {
 
     //remove(int) - remove int value from data field
     //@param val - bit number to remove
+
+    /**
+     * Remove <code>int</code> value from {@link #data}
+     *
+     * @param val
+     */
     public void remove(int val) {
         if (!checkThreshold(val)) {
             return;
@@ -46,32 +76,43 @@ public class Int64 {
         data &= ~(1L << val);
     }
 
-    //union(Int64) - method to unite two long values
-    //@param other - Int64 type value to unite with
-    //@return new Int64 value
+    /**
+     * Unite two <code>long</code> values
+     *
+     * @param other Another {@link #Int64()} object
+     * @return Union of two {@link #data} values as new {@link #Int64()} object
+     */
     public Int64 union(Int64 other) {
         return new Int64(this.data | other.data);
     }
 
-    //intersection(Int64) - method to unite two long values
-    //@param other - Int64 type value to intersect with
-    //@return new Int64 value
+
+    /**
+     * Intersect two <code>long</code> values
+     *
+     * @param other Another {@link #Int64()} object
+     * @return Intersect of two {@link #data} values as new {@link #Int64()} object
+     */
     public Int64 intersection(Int64 other) {
         return new Int64(this.data & other.data);
     }
 
-    //minus(Int64) - compare two Int64 values
-    //@param other - Int64 type value to compare with
-    //@return false if different
-    //@return true if equal
+    /**
+     * Substract two {@link #data} values of two {@link #Int64()} objects
+     *
+     * @param other Another {@link #Int64()} object
+     * @return Substract of two {@link #data} values as new {@link #Int64()} object
+     */
     public Int64 minus(Int64 other) {
         return new Int64(this.data - other.data);
     }
 
-    //isSubsetOf(Int64) - check on substring for called Int64 value
-    //@param other - Int64 type value to find substring
-    //@return true if there is a substring in other
-    //@return false if there is not a substring in other
+    /**
+     * Check on substring for called {@link #Int64()} object
+     *
+     * @param other Another {@link #Int64()} object
+     * @return false if there is not a substring in other else true
+     */
     public boolean isSubsetOf(Int64 other) {
         if (this.bitNum() > other.bitNum()) {
             return false;
@@ -92,27 +133,39 @@ public class Int64 {
 
     //auxiliary methods---------------------------------------------------------------------------------------------
 
-    //getVal()
-    //@return value of data
+    /**
+     * Method returning {@link #data} value for called object
+     *
+     * @return {@link #data} value
+     */
     public long getVal() {
         return this.data;
     }
 
     //int64Print() - print containing of data
+
+    /**
+     * Print containing of {@link #data}
+     */
     public void int64Print() {
         System.out.println(this.data + " -> " + Long.toBinaryString(this.data));
     }
 
-    //checkThreshold(int val) - check if value in boundaries [0; 62]
-    //@param val - value to check
-    //@return true if in boundaries
-    //@return false if out of bound
+    /**
+     * Check if value in boundaries {@link #highThresh} and {@link #lowThresh}
+     *
+     * @param val value to check
+     * @return true if in boundaries else false
+     */
     private boolean checkThreshold(int val) {
         return !(val < lowThresh || val > highThresh);
     }
-
-    //bitNum()
-    //@return number of bits for called Int64 object
+    
+    /**
+     * Method to get number of bits
+     *
+     * @return number of high bit in {@link #data} value for called {@link #Int64()} object
+     */
     private int bitNum() {
         return (int) (Math.ceil(Math.log(this.data) / Math.log(2)));
     }

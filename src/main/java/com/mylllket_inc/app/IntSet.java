@@ -11,7 +11,7 @@ public class IntSet {
 
     private static byte globalID = 0;
     private int ID = 0;
-    
+
     public IntSet(int size) {
         if (size != 0) {
             globalID++;
