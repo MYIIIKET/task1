@@ -61,8 +61,6 @@ public class Int64 {
         return res != 0;
     }
 
-    //remove(int) - remove int value from data field
-    //@param val - bit number to remove
 
     /**
      * Remove <code>int</code> value from {@link #data}
@@ -160,7 +158,7 @@ public class Int64 {
     private boolean checkThreshold(int val) {
         return !(val < lowThresh || val > highThresh);
     }
-    
+
     /**
      * Method to get number of bits
      *
