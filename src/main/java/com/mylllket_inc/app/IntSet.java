@@ -111,6 +111,7 @@ public class IntSet {
         }
         arrData[getIndex(val)].remove(val % elemNum);
         IntSet tmp = checkOnDefrag(this);
+        this.size=tmp.getSize();
         this.arrData = tmp.arrData;
     }
 
@@ -217,6 +218,10 @@ public class IntSet {
             this.arrData[i].int64Print();
         }
         System.out.println();
+    }
+
+    public int getSize(){
+        return this.size;
     }
 
     /**

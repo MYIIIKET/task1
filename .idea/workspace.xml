@@ -6,7 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6212687-1d49-4b9f-92b8-c16e4e9f8ae9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/SetInt64.java" afterPath="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/Int64.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mylllket_inc/app/Int64.class" afterPath="$PROJECT_DIR$/target/classes/com/mylllket_inc/app/Int64.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mylllket_inc/app/IntSet.class" afterPath="$PROJECT_DIR$/target/classes/com/mylllket_inc/app/IntSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mylllket_inc/app/IntSetTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mylllket_inc/app/IntSetTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java" afterPath="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,37 +33,9 @@
       <file leaf-file-name="Int64.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/Int64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="155" column="47" lean-forward="true" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="47" />
-              <folding>
-                <element signature="e#2318#2319#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntSetTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntSet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="260" column="50" lean-forward="false" selection-start-line="260" selection-start-column="50" selection-end-line="260" selection-end-column="50" />
-              <folding>
-                <element signature="e#6515#6516#0" expanded="true" />
-                <element signature="e#6568#6569#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="223">
+              <caret line="155" column="47" lean-forward="false" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,9 +43,34 @@
       <file leaf-file-name="Int64Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/Int64Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="495">
               <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+              <folding>
+                <element signature="e#6920#6921#0" expanded="true" />
+                <element signature="e#6952#6953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntSetTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +87,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -107,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/SetInt64Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/SetInt64.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/Int64Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/Int64.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java" />
       </list>
     </option>
   </component>
@@ -137,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,9 +205,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,33 +225,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntSetTest">
-    <configuration default="false" name="Int64Test.testIntSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mylllket_inc.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="task1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mylllket_inc.app" />
-      <option name="MAIN_CLASS_NAME" value="com.mylllket_inc.app.Int64Test" />
-      <option name="METHOD_NAME" value="testIntSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.IntSetTest.testRemovingIntSet">
     <configuration default="false" name="Int64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -271,32 +246,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Int64Test.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.mylllket_inc.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="task1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mylllket_inc.app" />
-      <option name="MAIN_CLASS_NAME" value="com.mylllket_inc.app.Int64Test" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="IntSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -311,6 +260,84 @@
       <option name="MAIN_CLASS_NAME" value="com.mylllket_inc.app.IntSetTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntSetTest.testCreationIntSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mylllket_inc.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="task1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mylllket_inc.app" />
+      <option name="MAIN_CLASS_NAME" value="com.mylllket_inc.app.IntSetTest" />
+      <option name="METHOD_NAME" value="testCreationIntSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntSetTest.testAddingIntSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mylllket_inc.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="task1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mylllket_inc.app" />
+      <option name="MAIN_CLASS_NAME" value="com.mylllket_inc.app.IntSetTest" />
+      <option name="METHOD_NAME" value="testAddingIntSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntSetTest.testRemovingIntSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mylllket_inc.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="task1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mylllket_inc.app" />
+      <option name="MAIN_CLASS_NAME" value="com.mylllket_inc.app.IntSetTest" />
+      <option name="METHOD_NAME" value="testRemovingIntSet" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -553,19 +580,21 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Int64Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Int64Test.testIntSet" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Int64" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Int64Test.testAdd" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.IntSetTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Int64" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IntSetTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IntSetTest.testCreationIntSet" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IntSetTest.testAddingIntSet" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.IntSetTest.testRemovingIntSet" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IntSetTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Int64" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Int64Test.testIntSet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Int64Test.testAdd" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IntSetTest.testRemovingIntSet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IntSetTest.testAddingIntSet" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IntSetTest.testCreationIntSet" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.IntSetTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Int64" />
       </list>
     </recent_temporary>
   </component>
@@ -598,35 +627,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 23m 00s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 49m 41s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 35m 41s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 49m 48s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 36m 38s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 50m 44s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 36m 50s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 50m 52s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 37m 01s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 51m 02s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 37m 20s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 52m 48s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 38m 12s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 52m 55s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 38m 42s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 54m 40s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.03 at 13h 39m 01s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 55m 23s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntSetTest - 2017.02.05 at 19h 45m 52s.xml">
-      <configuration name="IntSetTest" configurationId="JUnit" />
+    <history-entry file="IntSetTest_testRemovingIntSet - 2017.02.21 at 11h 55m 32s.xml">
+      <configuration name="IntSetTest.testRemovingIntSet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -711,7 +740,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="125" />
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -738,12 +767,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/Int64.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="155" column="47" lean-forward="true" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/Int64Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/Int64.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,8 +825,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#6568#6569#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,10 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,8 +862,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#6568#6569#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -820,10 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,8 +899,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#6568#6569#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -860,10 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -872,8 +926,8 @@
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#6568#6569#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -900,10 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,10 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,10 +986,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,10 +1002,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -976,10 +1018,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -995,10 +1034,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,10 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,13 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/junit/framework/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1056,53 +1082,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/Int64Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/jre/lib/rt.jar!/java/util/BitSet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="482" column="5" lean-forward="true" selection-start-line="482" selection-start-column="5" selection-end-line="482" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/Int64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="155" column="47" lean-forward="true" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="47" />
+        <state relative-caret-position="223">
+          <caret line="155" column="47" lean-forward="false" selection-start-line="155" selection-start-column="15" selection-end-line="155" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/Int64Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
           <folding>
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="e#6920#6921#0" expanded="true" />
+            <element signature="e#6952#6953#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mylllket_inc/app/IntSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="242">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mylllket_inc/app/IntSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="260" column="50" lean-forward="false" selection-start-line="260" selection-start-column="50" selection-end-line="260" selection-end-column="50" />
-          <folding>
-            <element signature="e#6515#6516#0" expanded="true" />
-            <element signature="e#6568#6569#0" expanded="true" />
           </folding>
         </state>
       </provider>
